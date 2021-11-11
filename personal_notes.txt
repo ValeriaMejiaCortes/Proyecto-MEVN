@@ -1,0 +1,42 @@
+morgan -> libreria que permite ver peticiones que vienes desde el servidor o desde el cliente
+
+ACTUALIZANDO A ECMASCRIPT 6 
+ECM6 ->(babel.js)-> ECM5
+BABEL.JS -> Es un transpiler, traduce el codigo en un idioma a otro lenguaje de computadora en el mismo
+nivel de abstracción
+
+ARCHIVOS ESTATICOS V8-C4
+
+npm install express-promise-router --save //modulo enrutador de express -> Permite que el middleware devuelva promesas
+
+Peticiones HTTP
+GET recuperar datos
+POST se utilliza para enviar una entidad a un recurso en especifico, causando
+a menudo un cambio en el estado o efectos secundarios en el 
+servidor
+PUT reemplaza todas las representaciones actuales del recurso de destino conn la carga 
+útil de la petición
+DELETE borra un recurso en específico 
+
+Encriptar password usando el modulo bcrypts.js
+ npm install bcryptjs --save
+
+--save //PAra instalar y almacenar la dependencia
+
+status(404) -> 404 NO FOUND
+status(403) -> 403 NO AUTORIZADO
+
+MODELADO CON REFERENCIAS (031)
+	-Apropiado en general para relaciones 1-muchos
+	-la ventaja principal es que permite consultar y actualizar los documentos
+	por separado. También permite relaciones N-M
+	-El inconveniente que es necesario realizar una segunda query para obtener los detalles de cada parte
+	
+MODELADO EMBEBIDO (031)
+	-Apropiado para relaciones 1-pocos y para cuando los datos embebidos no cambian 
+	a menudo o no se mantienen por separado.
+	- Ventaja que no es necesario hacer una query separada para obtener los detalles.
+
+
+PREGUNTAS
+¿que es un token?, ¿porque todo tiene {}?, ¿porque se coloca async?
